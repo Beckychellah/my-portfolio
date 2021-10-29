@@ -26,6 +26,9 @@ html{
     background: #555;
 }
 
+section{
+    padding: 100px 0;
+}
 /* navbar styling */
 .navbar{
     position: fixed;
