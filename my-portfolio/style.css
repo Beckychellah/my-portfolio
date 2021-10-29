@@ -197,6 +197,13 @@ section .title::before{
     background: none;
 }
 
+.list-padding{
+    padding: 10px 30px;
+}
+.hobbies-padding{
+    padding: 25px 0px 0px 10px;
+}
+
 /* projects section styling */
 .projects{
     color:#fff;
