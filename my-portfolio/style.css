@@ -58,6 +58,16 @@ section .title{
     font-family: 'Ubuntu', sans-serif;
 }
 
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+}
+
 /* navbar styling */
 .navbar{
     position: fixed;
@@ -145,7 +155,7 @@ section .title{
  
 /* about section styling */
 .about .title::after{
-    content: "who I am";
+    content: " who I am";
 }
 .about .about-content .left{
     width: 45%;
@@ -197,7 +207,7 @@ section .title{
 }
 .projects .title::after{
     background: #111;
-    content: "what I have done";
+    content: " what I have done";
 }
 .projects .proj-content .card{
     width: calc(33% - 20px);
@@ -232,7 +242,7 @@ section .title{
 }
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: " get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
