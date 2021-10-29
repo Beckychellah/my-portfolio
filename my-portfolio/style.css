@@ -29,6 +29,9 @@ html{
 section{
     padding: 100px 0;
 }
+.about, .projects, .contact {
+    font-family: 'Poppins', sans-serif;
+}
 /* navbar styling */
 .navbar{
     position: fixed;
