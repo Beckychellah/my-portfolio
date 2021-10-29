@@ -149,7 +149,7 @@ section .title::before{
  
 /* about section styling */
 .about .title::after{
-    content: " who I am";
+    content: " - who I am";
 }
 .about .about-content .left{
     width: 45%;
@@ -208,7 +208,7 @@ section .title::before{
 }
 .projects .title::after{
     background: #111;
-    content: " what I have done";
+    content: " - what I have done";
 }
 .projects .proj-content .card{
     width: calc(33% - 20px);
@@ -243,7 +243,7 @@ section .title::before{
 }
 /* contact section styling */
 .contact .title::after{
-    content: " get in touch";
+    content: " - get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
