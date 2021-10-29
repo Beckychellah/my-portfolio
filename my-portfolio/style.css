@@ -25,7 +25,7 @@ html{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
+/* Applies to all sections */
 section{
     padding: 100px 0;
 }
@@ -40,6 +40,12 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 /* navbar styling */
 .navbar{
     position: fixed;
