@@ -2,7 +2,7 @@
 
 #### By _**{Becky}**_
 
-#### _{Brief description of application}_
+#### https://beckychellah.github.io/my-portfolio/
 
 ## Technologies Used
 
